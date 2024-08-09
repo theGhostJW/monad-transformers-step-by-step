@@ -2,7 +2,7 @@ module Lib where
 
 import qualified Data.Map as Map
 import qualified Control.Monad.Fail     as Fail
-import           Control.Monad.Identity
+import Control.Monad.Identity ( Identity )
 
 type Name = String
 
@@ -19,12 +19,12 @@ data Exp
 
 data Value
     = IntVal Integer
-    | FunVal Env
+    | FunVal Vars
              Name
              Exp
     deriving (Show, Eq)
 
-type Env = Map.Map Name Value
+type Vars = Map.Map Name Value
 
 
 -- https://wiki.haskell.org/MonadFail_Proposal
@@ -54,4 +54,4 @@ Without the MonadFail instance above, you'll get compilation errors like this:
 -}
 
 exampleExp :: Exp
-exampleExp = Lit 12 `Plus` (App (Abs "x" (Var "x")) (Lit 4 `Plus` Lit 2))
+exampleExp = Lit 12 `Plus` App (Abs "x" (Var "x")) (Lit 4 `Plus` Lit 2)
