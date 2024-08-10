@@ -1,5 +1,3 @@
-
-
 module Eval3 where
 
 import Control.Monad.Except
@@ -12,7 +10,7 @@ import Lib
 type Eval3 a = ReaderT Vars (ExceptT String Identity) a
 
 runEval3 :: Vars -> Eval3 a -> Either String a
-runEval3 vars ev = runIdentity (runExceptT (runReaderT ev vars))
+runEval3 vars evalWithReaderExcept = runIdentity (runExceptT (runReaderT evalWithReaderExcept vars))
 
 eval3 :: Exp -> Eval3 Value
 eval3 = \case
@@ -39,3 +37,6 @@ eval3 = \case
       FunVal vars' n body ->
         local (const (Map.insert n val2 vars')) (eval3 body)
       _ -> throwError "type error in application"
+
+execEval3 :: Either String Value
+execEval3 = runEval3 Map.empty $ eval3 exampleExp

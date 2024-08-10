@@ -19,8 +19,8 @@ type Eval a = ReaderT Vars (ExceptT String
                           (WriterT [String] (StateT Integer IO))) a
 
 runEval6 :: Vars -> Integer -> Eval a -> IO ((Either String a, [String]), Integer)
-runEval6 env st ev =
-    runStateT (runWriterT $ runExceptT $ runReaderT ev env) st
+runEval6 vars st ev =
+    runStateT (runWriterT $ runExceptT $ runReaderT ev vars) st
 
 tick :: (Num s, MonadState s m) => m ()
 tick = do st <- get
