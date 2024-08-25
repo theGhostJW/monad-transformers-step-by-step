@@ -27,9 +27,9 @@ readPassword' :: MaybeT IO String
 readPassword' = MaybeT $ do
   putStrLn "Please enter your Password!"
   str <- getLine
-  if length str < 8 || not (any isUpper str) || not (any isLower str)
-    then return Nothing
-    else return $ Just str
+  pure $ if length str < 8 || not (any isUpper str) || not (any isLower str)
+    then Nothing
+    else Just str
 
 debug :: (MonadIO m) => String -> m ()
 debug input = liftIO $ putStrLn ("Successfully produced input: " ++ input)

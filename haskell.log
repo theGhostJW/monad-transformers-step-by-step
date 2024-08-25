@@ -407,3 +407,14 @@ You should ignore this message, unless you see a 'Multi Cradle: No prefixes matc
 2024-08-25T20:42:43.521658Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
 2024-08-25T20:43:43.573583Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
 2024-08-25T20:44:43.621132Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
+2024-08-25T20:45:43.667289Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
+2024-08-25T20:46:43.685113Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
+2024-08-25T20:47:43.731306Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
+2024-08-25T20:48:43.784002Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
+2024-08-25T20:49:43.835137Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
+2024-08-25T20:50:43.889261Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
+2024-08-25T20:51:43.942155Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
+2024-08-25T20:52:43.949129Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
+2024-08-25T20:53:39.580132Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:53:43.944372Z | Info | Live bytes: 157.63MB Heap size: 784.33MB
+2024-08-25T20:54:22.816559Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/theghostjw/monad-transformers-step-by-step/src/MondayMorningHaskell.hs": [  ]
