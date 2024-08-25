@@ -1,0 +1,409 @@
+2024-08-25 19:18:28.9470000 [client] INFO Writing client log to file /home/theghostjw/monad-transformers-step-by-step/haskell.log
+2024-08-25 19:18:28.9650000 [client] INFO Finding haskell-language-server
+2024-08-25 19:18:28.9950000 [client] INFO Checking for ghcup installation
+2024-08-25 19:18:29.0420000 [client] INFO found ghcup at ghcup
+2024-08-25 19:18:29.0640000 [client] INFO Executing 'ghcup --no-verbose upgrade' in cwd '/mnt/c/Users/thegh/AppData/Local/Programs/Microsoft VS Code'
+2024-08-25 19:19:23.9760000 [client] INFO Checking for ghcup installation
+2024-08-25 19:19:24.0060000 [client] INFO found ghcup at ghcup
+2024-08-25 19:19:24.0100000 [client] INFO Executing 'ghcup --no-verbose list -t hls -c installed -r' in cwd '/mnt/c/Users/thegh/AppData/Local/Programs/Microsoft VS Code'
+2024-08-25 19:19:37.6620000 [client] INFO Checking for ghcup installation
+2024-08-25 19:19:37.6830000 [client] INFO found ghcup at ghcup
+2024-08-25 19:19:37.6850000 [client] INFO Executing 'ghcup --no-verbose list -t cabal -c installed -r' in cwd '/mnt/c/Users/thegh/AppData/Local/Programs/Microsoft VS Code'
+2024-08-25 19:19:49.8950000 [client] INFO Checking for ghcup installation
+2024-08-25 19:19:49.9100000 [client] INFO found ghcup at ghcup
+2024-08-25 19:19:49.9130000 [client] INFO Executing 'ghcup --no-verbose list -t stack -c installed -r' in cwd '/mnt/c/Users/thegh/AppData/Local/Programs/Microsoft VS Code'
+2024-08-25 19:20:01.1950000 [client] INFO Checking for ghcup installation
+2024-08-25 19:20:01.2250000 [client] INFO found ghcup at ghcup
+2024-08-25 19:20:01.2290000 [client] INFO Executing 'ghcup --no-verbose whereis hls 2.9.0.1' in cwd '/mnt/c/Users/thegh/AppData/Local/Programs/Microsoft VS Code'
+2024-08-25 19:20:01.3220000 [client] INFO Checking for ghcup installation
+2024-08-25 19:20:01.3620000 [client] INFO found ghcup at ghcup
+2024-08-25 19:20:01.3770000 [client] INFO Executing 'ghcup --no-verbose whereis cabal 3.12.1.0' in cwd '/mnt/c/Users/thegh/AppData/Local/Programs/Microsoft VS Code'
+2024-08-25 19:20:01.4610000 [client] INFO Checking for ghcup installation
+2024-08-25 19:20:01.5030000 [client] INFO found ghcup at ghcup
+2024-08-25 19:20:01.5060000 [client] INFO Executing 'ghcup --no-verbose whereis stack 2.15.7' in cwd '/mnt/c/Users/thegh/AppData/Local/Programs/Microsoft VS Code'
+2024-08-25 19:20:01.6670000 [client] INFO Executing 'ghc --numeric-version' in cwd '/mnt/c/Users/thegh/AppData/Local/Programs/Microsoft VS Code'
+2024-08-25 19:20:02.2940000 [client] INFO Checking for ghcup installation
+2024-08-25 19:20:02.3570000 [client] INFO found ghcup at ghcup
+2024-08-25 19:20:02.3620000 [client] INFO Executing 'ghcup --no-verbose run --hls 2.9.0.1 --cabal 3.12.1.0 --stack 2.15.7 --install' in cwd '/mnt/c/Users/thegh/AppData/Local/Programs/Microsoft VS Code'
+2024-08-25 19:20:16.1770000 [client] INFO Working out the project GHC version. This might take a while...
+2024-08-25 19:20:16.1810000 [client] INFO Executing 'haskell-language-server-wrapper --project-ghc-version' in cwd '/home/theghostjw/monad-transformers-step-by-step'
+2024-08-25 19:20:58.8550000 [client] INFO The GHC version for the project or file: 9.8.2
+2024-08-25 19:21:19.0970000 [client] INFO Platform constants: Linux_UnknownLinux, A_64
+2024-08-25 19:21:19.1120000 [client] INFO Checking for ghcup installation
+2024-08-25 19:21:19.4290000 [client] INFO found ghcup at ghcup
+2024-08-25 19:21:19.5180000 [client] INFO Executing 'ghcup --no-verbose list -t hls -c installed -r' in cwd '/mnt/c/Users/thegh/AppData/Local/Programs/Microsoft VS Code'
+2024-08-25 19:21:28.6690000 [client] INFO Checking for ghcup installation
+2024-08-25 19:21:28.8960000 [client] INFO found ghcup at ghcup
+2024-08-25 19:21:28.8990000 [client] INFO Executing 'ghcup --no-verbose whereis bindir' in cwd '/mnt/c/Users/thegh/AppData/Local/Programs/Microsoft VS Code'
+2024-08-25 19:21:29.1980000 [client] INFO Checking for ghcup installation
+2024-08-25 19:21:29.2730000 [client] INFO found ghcup at ghcup
+2024-08-25 19:21:29.2770000 [client] INFO Executing 'ghcup --no-verbose whereis hls 2.9.0.1' in cwd '/mnt/c/Users/thegh/AppData/Local/Programs/Microsoft VS Code'
+2024-08-25 19:21:30.8080000 [client] INFO Checking for ghcup installation
+2024-08-25 19:21:30.9180000 [client] INFO found ghcup at ghcup
+2024-08-25 19:21:30.9210000 [client] INFO Executing 'ghcup --no-verbose whereis ghc 9.8.2' in cwd '/mnt/c/Users/thegh/AppData/Local/Programs/Microsoft VS Code'
+2024-08-25 19:21:31.0460000 [client] INFO Checking for ghcup installation
+2024-08-25 19:21:31.1470000 [client] INFO found ghcup at ghcup
+2024-08-25 19:21:31.1500000 [client] INFO Executing 'ghcup --no-verbose run --hls 2.9.0.1 --cabal 3.12.1.0 --stack 2.15.7 --ghc 9.8.2 --install' in cwd '/mnt/c/Users/thegh/AppData/Local/Programs/Microsoft VS Code'
+2024-08-25 19:21:35.1420000 [client] INFO Activating the language server in working dir: /home/theghostjw/monad-transformers-step-by-step (the workspace folder)
+2024-08-25 19:21:35.1450000 [client] INFO run command: /home/theghostjw/.ghcup/tmp/ghcup-ghc-9.8.2_cabal-3.12.1.0_hls-2.9.0.1_stack-2.15.7/haskell-language-server-wrapper --lsp -l haskell.log
+2024-08-25 19:21:35.1460000 [client] INFO debug command: /home/theghostjw/.ghcup/tmp/ghcup-ghc-9.8.2_cabal-3.12.1.0_hls-2.9.0.1_stack-2.15.7/haskell-language-server-wrapper --lsp -l haskell.log
+2024-08-25 19:21:35.1460000 [client] INFO server cwd: /home/theghostjw/monad-transformers-step-by-step
+2024-08-25 19:21:35.1460000 [client] INFO server environment variables:
+2024-08-25 19:21:35.1470000 [client] INFO   PATH=/home/theghostjw/.ghcup/tmp/ghcup-ghc-9.8.2_cabal-3.12.1.0_hls-2.9.0.1_stack-2.15.7:/home/theghostjw/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/bin/remote-cli:/home/theghostjw/.cabal/bin:/home/theghostjw/.ghcup/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/zstd-v1.5.5-win64:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/Python27/:/mnt/c/Python27/Scripts:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Program Files/Dell/DW WLAN Card:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/WIDCOMM/Bluetooth Software/:/mnt/c/Program Files/WIDCOMM/Bluetooth Software/syswow64:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/thegh/.dnx/bin:/mnt/c/Program Files/Microsoft DNX/Dnvm/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/scala/bin:/mnt/c/Users/thegh/AppData/Roaming/npm:/mnt/c/Program Files (x86)/Pandoc/:/mnt/c/Program Files (x86)/sbt/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/ProgramData/osquery:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/Java/jdk1.8.0_131/bin:/mnt/c/Program Files/watchman:/mnt/c/Android/android-sdk/tools:/mnt/c/Android/android-sdk/platform-tools:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/PowerShell/6/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/stack2cabal:/mnt/c/hpackExe:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/WinMerge:/Docker/host/bin:/mnt/c/ghcup/bin:/mnt/c/Users/thegh/.dotnet/tools:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/dotnet/dotnet.exe:/mnt/c/Ruby25-x64/bin:/mnt/c/Users/thegh/AppData/Roaming/local/bin/stack.exe:/mnt/c/Users/thegh/AppData/Roaming/local/bin/:/mnt/c/Users/thegh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/gheckoWebDriver:/mnt/c/Program Files/Hasktags:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Oni:/mnt/c/Users/thegh/AppData/Local/Yarn/bin:/mnt/c/Users/thegh/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/thegh/AppData/Roaming/npm:/mnt/c/Users/thegh/AppData/Roaming/npm/node_modules/typescript/bin:/mnt/c/Users/thegh/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/thegh/AppData/Local/Pandoc/:/mnt/c/Users/thegh/.dotnet/tools:/snap/bin
+2024-08-25 19:21:35.2730000 [client] INFO Starting language server
+2024-08-25T19:23:58.430148Z | Info | haskell-language-server version: 2.9.0.1 (GHC: 9.8.2) (PATH: /home/theghostjw/.ghcup/hls/2.9.0.1/lib/haskell-language-server-2.9.0.1/bin/haskell-language-server-9.8.2)
+2024-08-25T19:23:58.454551Z | Info | Directory: /home/theghostjw/monad-transformers-step-by-step
+2024-08-25T19:23:58.458506Z | Info | Starting (haskell-language-server) LSP server...
+  GhcideArguments {argsCommand = LSP, argsCwd = Nothing, argsShakeProfiling = Nothing, argsTesting = False, argsExamplePlugin = False, argsLogLevel = Info, argsLogFile = Just "haskell.log", argsLogStderr = True, argsLogClient = False, argsThreads = 0, argsProjectGhcVersion = False}
+  PluginIds: [ pragmas-suggest
+             , pragmas-completion
+             , ghcide-code-actions-bindings
+             , ghcide-extend-import-action
+             , retrie
+             , stylish-haskell
+             , explicit-fields
+             , ghcide-code-actions-type-signatures
+             , ghcide-code-actions-fill-holes
+             , stan
+             , hlint
+             , changeTypeSignature
+             , ghcide-code-actions-imports-exports
+             , cabal-fmt
+             , notes
+             , ghcide-completions
+             , eval
+             , ghcide-type-lenses
+             , cabal
+             , overloaded-record-dot
+             , gadt
+             , LSPRecorderCallback
+             , importLens
+             , floskell
+             , codeRange
+             , class
+             , ormolu
+             , qualifyImportedNames
+             , ghcide-hover-and-symbols
+             , alternateNumberFormat
+             , rename
+             , splice
+             , moduleName
+             , semanticTokens
+             , fourmolu
+             , cabal-gild
+             , callHierarchy
+             , ghcide-core
+             , explicit-fixity
+             , pragmas-disable ]
+2024-08-25T19:23:58.529600Z | Info | Logging heap statistics every 60.00s
+2024-08-25T19:23:58.639884Z | Info | Starting LSP server...
+  If you are seeing this in a terminal, you probably should have run WITHOUT the --lsp option!
+  PluginIds: [ pragmas-suggest
+             , pragmas-completion
+             , ghcide-code-actions-bindings
+             , ghcide-extend-import-action
+             , retrie
+             , stylish-haskell
+             , explicit-fields
+             , ghcide-code-actions-type-signatures
+             , ghcide-code-actions-fill-holes
+             , stan
+             , hlint
+             , changeTypeSignature
+             , ghcide-code-actions-imports-exports
+             , cabal-fmt
+             , notes
+             , ghcide-completions
+             , eval
+             , ghcide-type-lenses
+             , cabal
+             , overloaded-record-dot
+             , gadt
+             , LSPRecorderCallback
+             , importLens
+             , floskell
+             , codeRange
+             , class
+             , ormolu
+             , qualifyImportedNames
+             , ghcide-hover-and-symbols
+             , alternateNumberFormat
+             , rename
+             , splice
+             , moduleName
+             , semanticTokens
+             , fourmolu
+             , cabal-gild
+             , callHierarchy
+             , ghcide-core
+             , explicit-fixity
+             , pragmas-disable ]
+2024-08-25T19:23:58.650670Z | Info | Starting server
+2024-08-25T19:23:58.915128Z | Info | Registering IDE configuration: IdeConfiguration {workspaceFolders = fromList [NormalizedUri (-5094772286301857488) "file:///home/theghostjw/monad-transformers-step-by-step"], clientSettings = hashed Nothing}
+2024-08-25T19:23:59.166034Z | Info | Started LSP server in 0.53s
+2024-08-25T19:24:33.355508Z | Info | Cradle path: src/Eval3.hs
+2024-08-25T19:24:33.357476Z | Warning | No [cradle](https://github.com/mpickering/hie-bios#hie-bios) found for src/Eval3.hs.
+Proceeding with [implicit cradle](https://hackage.haskell.org/package/implicit-hie).
+You should ignore this message, unless you see a 'Multi Cradle: No prefixes matched' error.
+2024-08-25T19:24:33.405664Z | Info | invoking build tool to determine build flags (this may take some time depending on the cache)
+2024-08-25T19:24:33.422552Z | Info | stack --stack-yaml /home/theghostjw/monad-transformers-step-by-step/stack.yaml repl --no-nix-pure --with-ghc /home/theghostjw/.cache/hie-bios/wrapper-b54f81dea4c0e6d1626911c526bc4e36 monad-transformers-step-by-step:lib
+  Environment Variables
+    HIE_BIOS_OUTPUT: /tmp/HIE_BIOS_OUTPUT26573-0
+2024-08-25T19:24:47.191400Z | Info | Could not identify reverse dependencies for NormalizedFilePath "/home/theghostjw/monad-transformers-step-by-step/src/MondayMorningHaskell.hs"
+2024-08-25T19:24:58.548997Z | Info | Live bytes: 13.99MB Heap size: 568.33MB
+2024-08-25T19:25:00.971672Z | Info | stack --stack-yaml /home/theghostjw/monad-transformers-step-by-step/stack.yaml path --ghc-package-path
+  Environment Variables
+    HIE_BIOS_OUTPUT: /tmp/HIE_BIOS_OUTPUT26573-1
+2024-08-25T19:25:28.907410Z | Info | Interface files cache directory: /home/theghostjw/.cache/ghcide/main-29ff8bd0fd52525043e55d3f47a98b5b32e6f0a8-29ff8bd0fd52525043e55d3f47a98b5b32e6f0a8
+2024-08-25T19:25:28.937885Z | Info | Making new HscEnv. In-place unit ids: [ main-29ff8bd0fd52525043e55d3f47a98b5b32e6f0a8 ]
+2024-08-25T19:25:58.577462Z | Info | Live bytes: 34.28MB Heap size: 635.44MB
+2024-08-25T19:26:58.631992Z | Info | Live bytes: 34.28MB Heap size: 635.44MB
+2024-08-25T19:27:42.521914Z | Warning | semanticTokens: no HieAst exist for fileNormalizedFilePath "/home/theghostjw/monad-transformers-step-by-step/src/MondayMorningHaskell.hs"
+2024-08-25T19:27:58.627460Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:28:18.550186Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/theghostjw/monad-transformers-step-by-step/src/MondayMorningHaskell.hs": [  ]
+2024-08-25T19:28:20.818201Z | Warning | codeRange: no HieAst exist for file
+2024-08-25T19:28:58.621048Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:29:58.673407Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:30:58.703316Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:31:58.756879Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:32:58.804527Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:33:58.857691Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:34:58.911152Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:35:58.964723Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:36:59.006160Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:37:59.061093Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:38:59.090847Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:39:59.144408Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:40:59.172426Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:41:59.222601Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:42:59.257406Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:43:59.310415Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:44:59.308882Z | Info | Live bytes: 103.92MB Heap size: 713.03MB
+2024-08-25T19:45:16.277896Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/theghostjw/monad-transformers-step-by-step/src/MondayMorningHaskell.hs": [  ]
+2024-08-25T19:45:59.331193Z | Info | Live bytes: 87.84MB Heap size: 751.83MB
+2024-08-25T19:46:59.382925Z | Info | Live bytes: 87.84MB Heap size: 751.83MB
+2024-08-25T19:47:36.326324Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:47:40.202435Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:47:41.621671Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:47:46.347068Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:47:59.389797Z | Info | Live bytes: 90.79MB Heap size: 751.83MB
+2024-08-25T19:48:03.778041Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/theghostjw/monad-transformers-step-by-step/src/MondayMorningHaskell.hs": [  ]
+2024-08-25T19:48:09.780699Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:48:19.933714Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/theghostjw/monad-transformers-step-by-step/src/MondayMorningHaskell.hs": [  ]
+2024-08-25T19:48:59.422962Z | Info | Live bytes: 91.88MB Heap size: 751.83MB
+2024-08-25T19:49:23.880453Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:49:59.475271Z | Info | Live bytes: 91.88MB Heap size: 751.83MB
+2024-08-25T19:50:59.511794Z | Info | Live bytes: 91.88MB Heap size: 751.83MB
+2024-08-25T19:51:59.508232Z | Info | Live bytes: 91.88MB Heap size: 751.83MB
+2024-08-25T19:52:59.561680Z | Info | Live bytes: 91.88MB Heap size: 751.83MB
+2024-08-25T19:53:59.614185Z | Info | Live bytes: 91.88MB Heap size: 751.83MB
+2024-08-25T19:54:59.622518Z | Info | Live bytes: 91.88MB Heap size: 751.83MB
+2024-08-25T19:55:59.617063Z | Info | Live bytes: 91.88MB Heap size: 751.83MB
+2024-08-25T19:56:48.196767Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:56:50.956161Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/theghostjw/monad-transformers-step-by-step/src/MondayMorningHaskell.hs": [  ]
+2024-08-25T19:56:59.618379Z | Info | Live bytes: 91.88MB Heap size: 751.83MB
+2024-08-25T19:57:51.748810Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:57:53.438772Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:57:59.619849Z | Info | Live bytes: 91.88MB Heap size: 751.83MB
+2024-08-25T19:58:14.163109Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:58:25.427854Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:58:59.647418Z | Info | Live bytes: 98.52MB Heap size: 751.83MB
+2024-08-25T19:59:29.315786Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:59:29.675810Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:59:30.318912Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:59:30.893385Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:59:33.395023Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:59:33.548413Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:59:34.810958Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:59:42.927831Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:59:44.437772Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:59:48.371239Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T19:59:59.640531Z | Info | Live bytes: 100.42MB Heap size: 751.83MB
+2024-08-25T20:00:00.042526Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:00:04.633403Z | Warning | LSP: no handler for: "$/setTrace"
+2024-08-25T20:00:05.774821Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:00:12.485581Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:00:20.908259Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:00:48.410124Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:00:49.882480Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/theghostjw/monad-transformers-step-by-step/src/MondayMorningHaskell.hs": [  ]
+2024-08-25T20:00:59.644037Z | Info | Live bytes: 99.81MB Heap size: 751.83MB
+2024-08-25T20:01:21.623109Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:01:25.257993Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/theghostjw/monad-transformers-step-by-step/src/MondayMorningHaskell.hs": [  ]
+2024-08-25T20:01:59.671512Z | Info | Live bytes: 99.81MB Heap size: 751.83MB
+2024-08-25T20:02:59.702711Z | Info | Live bytes: 99.81MB Heap size: 751.83MB
+2024-08-25T20:03:59.757083Z | Info | Live bytes: 99.81MB Heap size: 751.83MB
+2024-08-25T20:04:59.809767Z | Info | Live bytes: 99.81MB Heap size: 751.83MB
+2024-08-25T20:05:59.862458Z | Info | Live bytes: 99.81MB Heap size: 751.83MB
+2024-08-25T20:06:59.865846Z | Info | Live bytes: 99.81MB Heap size: 751.83MB
+2024-08-25T20:07:33.928800Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:07:54.262470Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:07:58.371133Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:07:59.859255Z | Info | Live bytes: 99.16MB Heap size: 751.83MB
+2024-08-25T20:08:00.335044Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:08:00.928803Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:08:02.099046Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:08:04.788062Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:08:12.723175Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:08:13.336849Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:08:16.060812Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:08:20.607153Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:08:23.297405Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:08:26.917558Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:08:38.463509Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/theghostjw/monad-transformers-step-by-step/src/MondayMorningHaskell.hs": [  ]
+2024-08-25T20:08:59.873771Z | Info | Live bytes: 99.05MB Heap size: 756.02MB
+2024-08-25T20:09:38.778813Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:09:39.636550Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:09:59.879056Z | Info | Live bytes: 99.05MB Heap size: 756.02MB
+2024-08-25T20:10:48.034178Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/theghostjw/monad-transformers-step-by-step/src/MondayMorningHaskell.hs": [  ]
+2024-08-25T20:10:58.114104Z | Warning | LSP: no handler for: "$/setTrace"
+2024-08-25T20:10:59.886440Z | Info | Live bytes: 99.34MB Heap size: 756.02MB
+2024-08-25T20:11:59.917878Z | Info | Live bytes: 99.34MB Heap size: 756.02MB
+2024-08-25T20:12:17.563090Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:12:18.148253Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:12:18.495659Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:12:19.965942Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:12:28.699084Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:12:31.371837Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:12:32.976012Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:12:46.721570Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/theghostjw/monad-transformers-step-by-step/src/MondayMorningHaskell.hs": [  ]
+2024-08-25T20:12:59.924667Z | Info | Live bytes: 100.34MB Heap size: 756.02MB
+2024-08-25T20:13:04.406987Z | Info | LSP: received shutdown
+2024-08-25T20:13:04.436482Z | Error | Got EOF
+2024-08-25T20:13:42.588013Z | Info | haskell-language-server version: 2.9.0.1 (GHC: 9.8.2) (PATH: /home/theghostjw/.ghcup/hls/2.9.0.1/lib/haskell-language-server-2.9.0.1/bin/haskell-language-server-9.8.2)
+2024-08-25T20:13:42.613429Z | Info | Directory: /home/theghostjw/monad-transformers-step-by-step
+2024-08-25T20:13:42.617119Z | Info | Starting (haskell-language-server) LSP server...
+  GhcideArguments {argsCommand = LSP, argsCwd = Nothing, argsShakeProfiling = Nothing, argsTesting = False, argsExamplePlugin = False, argsLogLevel = Info, argsLogFile = Just "haskell.log", argsLogStderr = True, argsLogClient = False, argsThreads = 0, argsProjectGhcVersion = False}
+  PluginIds: [ pragmas-suggest
+             , pragmas-completion
+             , ghcide-code-actions-bindings
+             , ghcide-extend-import-action
+             , retrie
+             , stylish-haskell
+             , explicit-fields
+             , ghcide-code-actions-type-signatures
+             , ghcide-code-actions-fill-holes
+             , stan
+             , hlint
+             , changeTypeSignature
+             , ghcide-code-actions-imports-exports
+             , cabal-fmt
+             , notes
+             , ghcide-completions
+             , eval
+             , ghcide-type-lenses
+             , cabal
+             , overloaded-record-dot
+             , gadt
+             , LSPRecorderCallback
+             , importLens
+             , floskell
+             , codeRange
+             , class
+             , ormolu
+             , qualifyImportedNames
+             , ghcide-hover-and-symbols
+             , alternateNumberFormat
+             , rename
+             , splice
+             , moduleName
+             , semanticTokens
+             , fourmolu
+             , cabal-gild
+             , callHierarchy
+             , ghcide-core
+             , explicit-fixity
+             , pragmas-disable ]
+2024-08-25T20:13:42.666686Z | Info | Logging heap statistics every 60.00s
+2024-08-25T20:13:42.714227Z | Info | Starting LSP server...
+  If you are seeing this in a terminal, you probably should have run WITHOUT the --lsp option!
+  PluginIds: [ pragmas-suggest
+             , pragmas-completion
+             , ghcide-code-actions-bindings
+             , ghcide-extend-import-action
+             , retrie
+             , stylish-haskell
+             , explicit-fields
+             , ghcide-code-actions-type-signatures
+             , ghcide-code-actions-fill-holes
+             , stan
+             , hlint
+             , changeTypeSignature
+             , ghcide-code-actions-imports-exports
+             , cabal-fmt
+             , notes
+             , ghcide-completions
+             , eval
+             , ghcide-type-lenses
+             , cabal
+             , overloaded-record-dot
+             , gadt
+             , LSPRecorderCallback
+             , importLens
+             , floskell
+             , codeRange
+             , class
+             , ormolu
+             , qualifyImportedNames
+             , ghcide-hover-and-symbols
+             , alternateNumberFormat
+             , rename
+             , splice
+             , moduleName
+             , semanticTokens
+             , fourmolu
+             , cabal-gild
+             , callHierarchy
+             , ghcide-core
+             , explicit-fixity
+             , pragmas-disable ]
+2024-08-25T20:13:42.717827Z | Info | Starting server
+2024-08-25T20:13:42.728304Z | Info | Registering IDE configuration: IdeConfiguration {workspaceFolders = fromList [NormalizedUri (-5094772286301857488) "file:///home/theghostjw/monad-transformers-step-by-step"], clientSettings = hashed Nothing}
+2024-08-25T20:13:42.765265Z | Info | Started LSP server in 0.05s
+2024-08-25T20:13:53.146886Z | Info | Cradle path: src/MondayMorningHaskell.hs
+2024-08-25T20:13:53.149649Z | Warning | No [cradle](https://github.com/mpickering/hie-bios#hie-bios) found for src/MondayMorningHaskell.hs.
+Proceeding with [implicit cradle](https://hackage.haskell.org/package/implicit-hie).
+You should ignore this message, unless you see a 'Multi Cradle: No prefixes matched' error.
+2024-08-25T20:13:53.159476Z | Info | invoking build tool to determine build flags (this may take some time depending on the cache)
+2024-08-25T20:13:53.164321Z | Info | stack --stack-yaml /home/theghostjw/monad-transformers-step-by-step/stack.yaml repl --no-nix-pure --with-ghc /home/theghostjw/.cache/hie-bios/wrapper-b54f81dea4c0e6d1626911c526bc4e36 monad-transformers-step-by-step:lib
+  Environment Variables
+    HIE_BIOS_OUTPUT: /tmp/HIE_BIOS_OUTPUT58984-0
+2024-08-25T20:14:17.346455Z | Info | stack --stack-yaml /home/theghostjw/monad-transformers-step-by-step/stack.yaml path --ghc-package-path
+  Environment Variables
+    HIE_BIOS_OUTPUT: /tmp/HIE_BIOS_OUTPUT58984-1
+2024-08-25T20:14:42.690587Z | Info | Live bytes: 12.72MB Heap size: 568.33MB
+2024-08-25T20:14:51.986949Z | Info | Interface files cache directory: /home/theghostjw/.cache/ghcide/main-24e217065de627d5ae956dd8ecba83c1b426ca79-24e217065de627d5ae956dd8ecba83c1b426ca79
+2024-08-25T20:14:52.016506Z | Info | Making new HscEnv. In-place unit ids: [ main-24e217065de627d5ae956dd8ecba83c1b426ca79 ]
+2024-08-25T20:15:42.692484Z | Info | Live bytes: 27.31MB Heap size: 609.22MB
+2024-08-25T20:16:42.707719Z | Info | Live bytes: 27.31MB Heap size: 609.22MB
+2024-08-25T20:17:42.750942Z | Info | Live bytes: 27.31MB Heap size: 609.22MB
+2024-08-25T20:18:42.801256Z | Info | Live bytes: 27.31MB Heap size: 609.22MB
+2024-08-25T20:19:42.856738Z | Info | Live bytes: 27.31MB Heap size: 609.22MB
+2024-08-25T20:20:42.909632Z | Info | Live bytes: 27.31MB Heap size: 609.22MB
+2024-08-25T20:21:42.914627Z | Info | Live bytes: 27.31MB Heap size: 609.22MB
+2024-08-25T20:22:42.966406Z | Info | Live bytes: 27.31MB Heap size: 609.22MB
+2024-08-25T20:23:43.017067Z | Info | Live bytes: 27.31MB Heap size: 609.22MB
+2024-08-25T20:24:43.023190Z | Info | Live bytes: 27.31MB Heap size: 609.22MB
+2024-08-25T20:25:43.076416Z | Info | Live bytes: 27.31MB Heap size: 609.22MB
+2024-08-25T20:26:43.119136Z | Info | Live bytes: 27.31MB Heap size: 609.22MB
+2024-08-25T20:27:43.172479Z | Info | Live bytes: 101.28MB Heap size: 709.89MB
+2024-08-25T20:28:43.179158Z | Info | Live bytes: 97.84MB Heap size: 738.20MB
+2024-08-25T20:29:43.176664Z | Info | Live bytes: 104.67MB Heap size: 764.41MB
+2024-08-25T20:30:13.709181Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:30:43.197580Z | Info | Live bytes: 109.74MB Heap size: 764.41MB
+2024-08-25T20:31:43.214355Z | Info | Live bytes: 109.74MB Heap size: 764.41MB
+2024-08-25T20:32:43.259936Z | Info | Live bytes: 109.74MB Heap size: 764.41MB
+2024-08-25T20:33:43.312308Z | Info | Live bytes: 109.74MB Heap size: 764.41MB
+2024-08-25T20:34:43.358198Z | Info | Live bytes: 109.74MB Heap size: 764.41MB
+2024-08-25T20:35:25.509285Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:35:43.353174Z | Info | Live bytes: 168.83MB Heap size: 764.41MB
+2024-08-25T20:36:43.377505Z | Info | Live bytes: 141.02MB Heap size: 764.41MB
+2024-08-25T20:37:28.778669Z | Warning | semanticTokens: SemanticTokens' dependency error: Rule Failed: GetHieAst
+2024-08-25T20:37:43.373456Z | Info | Live bytes: 147.14MB Heap size: 768.61MB
+2024-08-25T20:37:56.453435Z | Info | Typechecking reverse dependencies for NormalizedFilePath "/home/theghostjw/monad-transformers-step-by-step/src/MondayMorningHaskell.hs": [  ]
+2024-08-25T20:38:43.392391Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
+2024-08-25T20:39:43.439505Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
+2024-08-25T20:40:43.453564Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
+2024-08-25T20:41:43.468868Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
+2024-08-25T20:42:43.521658Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
+2024-08-25T20:43:43.573583Z | Info | Live bytes: 151.53MB Heap size: 784.33MB
+2024-08-25T20:44:43.621132Z | Info | Live bytes: 151.53MB Heap size: 784.33MB

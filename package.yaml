@@ -27,6 +27,7 @@ dependencies:
   - containers
   - mtl
   - HUnit
+  - transformers
 
 library:
   source-dirs: src
